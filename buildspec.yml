@@ -16,7 +16,7 @@ phases:
       - docker build -t tooba52/arsenal-db:latest . 
   post_build:
     commands:
-      = echo "Pushing Docker image..."
+      - echo "Pushing Docker image..."
       - docker push tooba52/arsenal-db:latest
   
 
